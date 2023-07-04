@@ -11,10 +11,10 @@ class CustomerCreateSchema(BaseModel):
     class Config:
         schema_extra = {
             "example": {
-                "name": "Jan",
-                "surname": "Kowalski",
-                "email": "jan.kowalski@example.com",
-                "phone_number": "000-000-000",
+                "name": "Shrek",
+                "surname": "Fiona",
+                "email": "shrek@example.com",
+                "phone_number": "13-072-001",
             }
         }
 
@@ -28,8 +28,8 @@ class CustomerUpdateSchema(BaseModel):
     class Config:
         schema_extra = {
             "example": {
-                "name": "Jan",
-                "surname": "Kowalski"
+                "name": "Osioł",
+                "surname": "Kot"
             }
         }
 
